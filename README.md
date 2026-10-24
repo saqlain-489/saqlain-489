@@ -1,33 +1,27 @@
-<a href="https://github.com/saqlain-489">
+<a href="https://saqlain-489.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img alt="Saqlain Ahmad, full-stack and AI engineer: I build AI agents that run in production, and the full-stack TypeScript apps around them. Faisalabad, Pakistan." src="assets/banner-light.svg" width="100%">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still.webp">
+    <img src="assets/hero.webp" width="100%" alt="Saqlain Ahmad, full-stack and AI engineer in Faisalabad, Pakistan: I build AI agents that run in production, and the full-stack TypeScript apps around them. An animated 3D graph shows a multi-agent pipeline: a planner hands work to three parallel writers, 17 checks reject a draft and send it back, the draft passes, a judge escalates it for a second look, and it ships.">
   </picture>
 </a>
 
-For about two years I have been building **Ilmiya**, an EdTech and learning platform, at **Genius Mind Zone**: five backend services, six client apps, and the AI that writes its courses. I work across the stack, from Node.js and TypeScript APIs and their databases to React and Next.js apps, and I like owning a feature from design to deployment.
+<p align="center">
+  <a href="https://saqlain-489.github.io/"><img src="assets/btn-site.webp" height="46" alt="Open the interactive 3D version"></a>
+  <a href="mailto:saqlainahmad489@gmail.com"><img src="assets/btn-email.webp" height="46" alt="Email me"></a>
+  <a href="https://www.linkedin.com/in/saqlain-ahmad-developer/"><img src="assets/btn-linkedin.webp" height="46" alt="LinkedIn"></a>
+</p>
 
-**Shipped at work**
+<img src="assets/impact.webp" width="100%" alt="In numbers: about 2 years building a production EdTech platform end to end; 5 backend services and 6 client apps; 85% lower LLM running cost after routing work to cheaper models; 390+ automated tests across my public repos.">
 
-- **Multi-agent course generation, in production.** Planner, writer and quality-check agents on Mastra and Azure OpenAI produce complete language-course units. Routing simpler work to cheaper models, with fallbacks between models, cut its running cost by about 85%.
-- **An evaluation harness for that AI:** deterministic checks, LLM judges calibrated on known-good units, golden datasets, and a CI gate on every change to the agents.
-- **Real-time messaging and class discussions:** 21 REST endpoints in Node.js, Express and TypeScript, plus the React interface with live updates over Socket.IO, reply threads, reactions and attachments.
-- **The move from Firebase to Better Auth** across four backend services and six apps, migrating existing accounts without locking anyone out.
-- **A recitation-scoring service in Python:** Whisper speech recognition plus Arabic text matching, running in Docker on Kubernetes.
+<img src="assets/work.webp" width="100%" alt="Shipped in production at Genius Mind Zone, building Ilmiya, an EdTech platform. Multi-agent course generation on Mastra and Azure OpenAI, where model routing cut running cost by about 85%. An evaluation harness with LLM judges, golden datasets and a CI gate. Real-time messaging: 21 REST endpoints and a React interface over Socket.IO. The move from Firebase to Better Auth across four services and six apps. A Whisper-based recitation scoring service on Kubernetes. Redis caching, BullMQ jobs and OpenTelemetry across five services.">
 
-### Featured projects
+<img src="assets/projects-head.webp" width="100%" alt="Projects you can try. Each one has a live demo, tests and CI.">
 
-<a href="https://github.com/saqlain-489/quizforge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-quizforge-dark.svg"><img alt="quizforge: turns any document into a quiz where every answer is checked against the source and cited. Planner, writers, 17 checks and a two-tier judge; a 31-case benchmark gates CI. TypeScript, Mastra, Claude API, Next.js." src="assets/card-quizforge-light.svg" width="49%"></picture></a>&nbsp;<a href="https://github.com/saqlain-489/recite"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-recite-dark.svg"><img alt="recite: recite into the mic and watch every word and letter light up as you go. Word alignment and letter-level colours inside joined Arabic. React, TypeScript, Web Speech API." src="assets/card-recite-light.svg" width="49%"></picture></a>
-<a href="https://github.com/saqlain-489/dialdesk"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-dialdesk-dark.svg"><img alt="dialdesk: browser softphone and call CRM. Calls are transcribed by Whisper inside the browser and missed calls go to an AI voice receptionist; tenant isolation and toll-fraud guards. React, Express, MongoDB, Twilio." src="assets/card-dialdesk-light.svg" width="49%"></picture></a>&nbsp;<a href="https://github.com/saqlain-489/pk-job-radar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-pk-job-radar-dark.svg"><img alt="pk-job-radar: finds and ranks engineering jobs straight from Pakistani companies' own careers pages. 7,435 map results narrowed to 577 companies; a model reads only pages that changed. Node.js, SQLite, Puppeteer, Express." src="assets/card-pk-job-radar-light.svg" width="49%"></picture></a>
+<a href="https://github.com/saqlain-489/quizforge"><img src="assets/card-quizforge.webp" width="49%" alt="quizforge, AI agents and LLM evals: turns any document into a quiz where every answer is checked against the source and cited. Planner, parallel writers, 17 deterministic checks and a two-tier judge; an MCP server for Claude Code. TypeScript, Mastra, Claude API, Next.js. 67 tests and a 31-case benchmark."></a>&nbsp;<a href="https://github.com/saqlain-489/recite"><img src="assets/card-recite.webp" width="49%" alt="recite, speech and Arabic: recite into the mic and every word, down to the letter, is checked as you go. Web Speech streaming, an alignment engine, letter-level colours in joined Arabic script. React, TypeScript, Vitest. 135 tests."></a>
+<a href="https://github.com/saqlain-489/dialdesk"><img src="assets/card-dialdesk.webp" width="49%" alt="dialdesk, real-time and voice AI: a browser softphone and call CRM. Calls are transcribed by Whisper in the browser and missed calls go to an AI receptionist on Cloudflare Workers. Tenant isolation and toll-fraud guards. React, Express, MongoDB, Twilio. 115 tests."></a>&nbsp;<a href="https://github.com/saqlain-489/pk-job-radar"><img src="assets/card-pk-job-radar.webp" width="49%" alt="pk-job-radar, data pipeline: finds and ranks engineering jobs straight from Pakistani companies' own careers pages. 7,435 map results narrowed to 577 software companies; eight job-board feeds read in code; a model reads only the pages that changed. Node.js, SQLite, Puppeteer, Express. 77 tests."></a>
 
-**Try them live:** [quizforge](https://saqlain-489.github.io/quizforge/) · [recite](https://saqlain-489.github.io/recite/) · [dialdesk](https://saqlain-489.github.io/dialdesk/)
+<p align="center"><b>Try them live:</b> <a href="https://saqlain-489.github.io/quizforge/">quizforge</a> · <a href="https://saqlain-489.github.io/recite/">recite</a> · <a href="https://saqlain-489.github.io/dialdesk/">dialdesk</a></p>
 
-### Stack
+<img src="assets/stack.webp" width="100%" alt="What I build with. Languages: TypeScript, JavaScript, Python. Frontend: React, Next.js, Redux, Tailwind CSS, Vite. Backend: Node.js, Express, Socket.IO, BullMQ, REST and webhooks. Data: PostgreSQL, MongoDB, Redis, MySQL, Prisma. AI: Mastra, Claude API, Azure OpenAI, Whisper, MCP, RAG. Infrastructure: Docker, Kubernetes, AWS, GitHub Actions, Cloudflare Workers, OpenTelemetry.">
 
-**Every day:** TypeScript, Node.js, Express, React, Next.js, PostgreSQL, MongoDB, Redis, BullMQ, Socket.IO<br>
-**AI:** Mastra multi-agent workflows, Claude and OpenAI APIs, RAG, LLM evaluation, MCP, Whisper<br>
-**Infrastructure:** Docker, Kubernetes, AWS, GitHub Actions, OpenTelemetry, Cloudflare Workers
-
-### Contact
-
-[saqlainahmad489@gmail.com](mailto:saqlainahmad489@gmail.com) · [LinkedIn](https://www.linkedin.com/in/saqlain-ahmad-developer/) · Faisalabad, Pakistan (UTC+5)
+<p align="center"><sub>Every image on this page, the 3D hero included, is rendered from my portfolio's own code. <a href="https://github.com/saqlain-489/saqlain-489.github.io">See how</a>.</sub></p>
