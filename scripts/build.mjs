@@ -121,7 +121,7 @@ export const PROJECTS = [
   {
     slug: 'dialdesk',
     eyebrow: 'REAL-TIME · VOICE AI',
-    pitch: ['Browser softphone and call CRM with live', 'transcripts and an AI voice receptionist.'],
+    pitch: ['Browser softphone and call CRM: calls are', 'transcribed in the browser, misses go to an AI.'],
     facts: ['Whisper transcribes calls inside the browser', 'Tenant isolation and toll-fraud guards'],
     stack: ['React', 'Express', 'MongoDB', 'Twilio'],
     art: 'call',
