@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-labelledby="t d">
+  <title id="t">recite</title>
+  <desc id="d">Recite into the mic and watch every word, and every letter, light up as you go. Word alignment: correct, missed, substituted. Letter-level colours inside joined Arabic. Built with React, TypeScript, Web Speech API, Vitest.</desc>
+  <style>
+    .sans{font-family:ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace} .b{font-weight:700}
+    .flow{stroke-dasharray:6 8;animation:flow 1.1s linear infinite}
+    .small{animation:small 4s ease-in-out infinite} .large{animation:large 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-14}}
+    @keyframes small{0%,40%{opacity:1}50%,90%{opacity:.28}100%{opacity:1}}
+    @keyframes large{0%,40%{opacity:.28}50%,90%{opacity:1}100%{opacity:.28}}
+    @media (prefers-reduced-motion:reduce){.flow,.small,.large{animation:none}}
+  </style>
+  <defs>
+    <radialGradient id="crecitea" cx="0.88" cy="0.08" r="0.75">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0.1"/><stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="creciteb" cx="0.04" cy="1" r="0.65">
+      <stop offset="0" stop-color="#6d28d9" stop-opacity="0.1"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="creciteg" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1f2328" stroke-opacity="0.07"/>
+    </pattern>
+    <clipPath id="crecitec"><rect width="640" height="300" rx="18"/></clipPath>
+    <marker id="crecitem" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#59636e"/>
+    </marker>
+  </defs>
+  <g clip-path="url(#crecitec)">
+    <rect width="640" height="300" fill="#ffffff"/>
+    <rect width="640" height="300" fill="url(#creciteg)"/>
+    <rect width="640" height="300" fill="url(#crecitea)"/>
+    <rect width="640" height="300" fill="url(#creciteb)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="298.5" rx="17.5" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+  <text x="32" y="50" class="mono b" font-size="15" letter-spacing="2" fill="#0f766e">SPEECH · ARABIC · RTL</text>
+  <text x="30" y="98" class="sans b" font-size="38" letter-spacing="-0.8" fill="#1f2328">recite</text>
+  <text x="32" y="138" class="sans" font-size="21" fill="#59636e">Recite into the mic and watch every word,</text>
+  <text x="32" y="165" class="sans" font-size="21" fill="#59636e">and every letter, light up as you go.</text>
+  <circle cx="38" cy="203" r="4" fill="#b45309"/><text x="52" y="210" class="sans" font-size="19" fill="#1f2328">Word alignment: correct, missed, substituted</text>
+  <circle cx="38" cy="231" r="4" fill="#b45309"/><text x="52" y="238" class="sans" font-size="19" fill="#1f2328">Letter-level colours inside joined Arabic</text>
+  <rect x="32" y="250" width="69" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="66.5" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">React</text><rect x="109" y="250" width="112" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="165" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">TypeScript</text><rect x="229" y="250" width="146" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="302" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">Web Speech API</text><rect x="383" y="250" width="78" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="422" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">Vitest</text>
+  <rect x="512" y="58" width="5" height="10" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="522" y="52" width="5" height="22" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="532" y="45" width="5" height="36" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="542" y="54" width="5" height="18" rx="2.5" fill="#b45309" fill-opacity="1"/><rect x="552" y="41" width="5" height="44" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="562" y="49" width="5" height="28" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="572" y="56" width="5" height="14" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="582" y="46" width="5" height="34" rx="2.5" fill="#b45309" fill-opacity="1"/><rect x="592" y="51" width="5" height="24" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="602" y="57" width="5" height="12" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="612" y="48" width="5" height="30" rx="2.5" fill="#0f766e" fill-opacity="0.85"/><rect x="622" y="55" width="5" height="16" rx="2.5" fill="#b45309" fill-opacity="1"/>
+</svg>

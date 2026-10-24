@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-labelledby="t d">
+  <title id="t">pk-job-radar</title>
+  <desc id="d">Finds and ranks engineering jobs straight from Pakistani companies’ own careers pages. 7,435 map results narrowed to 577 companies. A model reads only the pages that changed. Built with Node.js, SQLite, Puppeteer, Express.</desc>
+  <style>
+    .sans{font-family:ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace} .b{font-weight:700}
+    .flow{stroke-dasharray:6 8;animation:flow 1.1s linear infinite}
+    .small{animation:small 4s ease-in-out infinite} .large{animation:large 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-14}}
+    @keyframes small{0%,40%{opacity:1}50%,90%{opacity:.28}100%{opacity:1}}
+    @keyframes large{0%,40%{opacity:.28}50%,90%{opacity:1}100%{opacity:.28}}
+    @media (prefers-reduced-motion:reduce){.flow,.small,.large{animation:none}}
+  </style>
+  <defs>
+    <radialGradient id="cpkjobradara" cx="0.88" cy="0.08" r="0.75">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0.1"/><stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cpkjobradarb" cx="0.04" cy="1" r="0.65">
+      <stop offset="0" stop-color="#6d28d9" stop-opacity="0.1"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cpkjobradarg" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1f2328" stroke-opacity="0.07"/>
+    </pattern>
+    <clipPath id="cpkjobradarc"><rect width="640" height="300" rx="18"/></clipPath>
+    <marker id="cpkjobradarm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#59636e"/>
+    </marker>
+  </defs>
+  <g clip-path="url(#cpkjobradarc)">
+    <rect width="640" height="300" fill="#ffffff"/>
+    <rect width="640" height="300" fill="url(#cpkjobradarg)"/>
+    <rect width="640" height="300" fill="url(#cpkjobradara)"/>
+    <rect width="640" height="300" fill="url(#cpkjobradarb)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="298.5" rx="17.5" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+  <text x="32" y="50" class="mono b" font-size="15" letter-spacing="2" fill="#0f766e">DATA PIPELINE · AUTOMATION</text>
+  <text x="30" y="98" class="sans b" font-size="38" letter-spacing="-0.8" fill="#1f2328">pk-job-radar</text>
+  <text x="32" y="138" class="sans" font-size="21" fill="#59636e">Finds and ranks engineering jobs straight</text>
+  <text x="32" y="165" class="sans" font-size="21" fill="#59636e">from Pakistani companies’ own careers pages.</text>
+  <circle cx="38" cy="203" r="4" fill="#b45309"/><text x="52" y="210" class="sans" font-size="19" fill="#1f2328">7,435 map results narrowed to 577 companies</text>
+  <circle cx="38" cy="231" r="4" fill="#b45309"/><text x="52" y="238" class="sans" font-size="19" fill="#1f2328">A model reads only the pages that changed</text>
+  <rect x="32" y="250" width="86" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="75" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">Node.js</text><rect x="126" y="250" width="78" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="165" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">SQLite</text><rect x="212" y="250" width="103" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="263.5" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">Puppeteer</text><rect x="323" y="250" width="86" height="30" rx="15" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="366" y="270" text-anchor="middle" class="mono" font-size="14" fill="#1f2328">Express</text>
+  <circle cx="552" cy="70" r="34" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+    <circle cx="552" cy="70" r="20" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+    <path d="M552 70L578 48" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="569" cy="61" r="4" fill="#b45309"/><circle cx="536" cy="82" r="3" fill="#0f766e"/>
+</svg>
